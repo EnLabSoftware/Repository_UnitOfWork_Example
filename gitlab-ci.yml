@@ -1,0 +1,12 @@
+# Define all pepeline stages names
+stages:
+  - eldesk-dev
+
+# Accounting
+Accounting_Deploy:
+  stage: BE_Build
+  script:
+    - echo 'hello'
+  tags:
+    - eldesk-dev
+
