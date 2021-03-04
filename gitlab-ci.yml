@@ -1,6 +1,6 @@
 # Define all pepeline stages names
 stages:
-  - eldesk-dev
+  - BE_Build
 
 # Accounting
 Accounting_Deploy:
